@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ahs-07-http</title>
+</head>
+<body>
+    <section id="help-desk" class="tickets-container">
+        <div class="tickets-control-panel">
+            <button type="button" class="tickets-add-btn tickets-btn tickets-control-panel--btn">Добавить тикет</button>
+        </div>
+
+        <ul class="tickets-items">
+        </ul>
+
+        <form id="help-desk--form-delete" class="tickets-form">
+            <h3 class="tickets-form--header">Удалить тикет</h3>
+            <a class="tickets-form--caption">Вы уверены, что хотите удалить тикет? Это действие необратимо.</a>
+            <div class="tickets-form--btns tickets-control-panel">
+                <button type="reset" class="tickets-form--reset-btn tickets-btn tickets-control-panel--btn">Отмена</button>
+                <button type="submit" class="tickets-form--submit-btn tickets-btn tickets-control-panel--btn">Ok</button>
+            </div>
+        </form>
+
+        <form id="help-desk--form-add" class="tickets-form">
+            <h3 class="tickets-form--header">Добавить тикет</h3>
+            <label>
+                Краткое описание<input type="text" class="tickets-form--input" name="name">
+            </label>
+            <label>
+                Подробное описание<textarea class="tickets-form--text-area" name="description"></textarea>
+            </label>
+            <div class="tickets-form--btns tickets-control-panel">
+                <button type="reset" class="tickets-form--reset-btn tickets-btn tickets-control-panel--btn">Отмена</button>
+                <button type="submit" class="tickets-form--submit-btn tickets-btn tickets-control-panel--btn">Ok</button>
+            </div>
+        </form>
+
+        <form id="help-desk--form-edit" class="tickets-form">
+            <h3 class="tickets-form--header">Изменить тикет</h3>
+            <label>
+                Краткое описание<input type="text" class="tickets-form--input" name="name">
+            </label>
+            <label>
+                Подробное описание<textarea class="tickets-form--text-area" name="description"></textarea>
+            </label>
+            <div class="tickets-form--btns tickets-control-panel">
+                <button type="reset" class="tickets-form--reset-btn tickets-btn tickets-control-panel--btn">Отмена</button>
+                <button type="submit" class="tickets-form--submit-btn tickets-btn tickets-control-panel--btn">Ok</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
