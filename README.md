@@ -1,1 +1,1 @@
-![CI](https://github.com/SergeyGurylev-Netology-Projects/ahs-07-http-client/actions/workflows/web.yml/badge.svg)
+[![Build status](https://ci.appveyor.com/api/projects/status/l10oa2p9x55u81t0?svg=true)](https://ci.appveyor.com/project/SergeyGurylev/ahs-07-http-client)
