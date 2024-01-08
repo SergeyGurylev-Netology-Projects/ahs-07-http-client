@@ -7,7 +7,6 @@ export default class HelpDesk {
   constructor() {
     this.container = document.getElementById('help-desk');
     this.ticketsItems = this.container.querySelector('.tickets-items');
-    this.ticketsItems = this.container.querySelector('.tickets-items');
     this.formAdd = new Form(this.container.querySelector('#help-desk--form-add'));
     this.formEdit = new Form(this.container.querySelector('#help-desk--form-edit'));
     this.formDelete = new Form(this.container.querySelector('#help-desk--form-delete'));
